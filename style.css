@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    border:solid 1px black;
+}
+html{
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    background-image: url(background.jpg);
+    background-size: contain;
+    height: 100%;
+    aspect-ratio: 1862 / 2792;
+}
+.right{
+    flex: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.right> div{
+    flex: auto;
+}
