@@ -72,32 +72,43 @@ body{
     font-style: italic;
 }
 
-input{
-    border: #E5E7EB solid;
-}
+
 
 .mid{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-legend{
-    width: 100%;
-}
+
 
 #form{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-
-    width: 80%
+    width: 800px;
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
+legend{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
 }
 
 .input-field{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 300px;
+    
+}
+
+label{
+    font-size: 13px;
+}
+
+input{
+    border: #E5E7EB solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
 }
 
 .foot button{
