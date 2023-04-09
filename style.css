@@ -22,7 +22,7 @@ body{
     background-image: url(background.jpg);
     background-size: cover;
     height: 100%;
-    min-width: 400px;
+    min-width: 500px;
     position: relative;
 }
 .left>div{
@@ -106,13 +106,16 @@ legend{
 
 label{
     font-size: 13px;
+    color: #4e4e4e;
+    font-weight: bold;
 }
 
 input{
     border: #E5E7EB solid 1px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
     width: 250px;
+    font-size: 18px;
 }
 
 .foot{
