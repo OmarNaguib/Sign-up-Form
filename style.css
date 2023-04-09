@@ -7,7 +7,6 @@
 
 *{
     margin:0;
-    border:solid 1px black;
 }
 html{
     height: 100vh;
@@ -23,6 +22,7 @@ body{
     background-size: contain;
     height: 100%;
     aspect-ratio: 1862 / 2792;
+
 }
 .left>div{
     background-color: rgba(0, 0, 0, .5);
@@ -52,11 +52,22 @@ body{
 }
 
 .right> div{
-    flex: auto;
+    flex: 1;
 }
 
 .head,.foot{
+    background-color: rgb(240, 240, 240);
+}
 
+.hero-content{
+    padding: 10% 5% 0% 5% ;
+    font-size: 18px;
+}
+.hero-text{
+    padding-bottom: 10px;
+}
+.italic{
+    font-style: italic;
 }
 
 input{
