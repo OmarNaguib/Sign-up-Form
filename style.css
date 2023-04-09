@@ -22,13 +22,15 @@ body{
     background-size: contain;
     height: 100%;
     aspect-ratio: 1862 / 2792;
+    position: relative;
 
 }
 .left>div{
     background-color: rgba(0, 0, 0, .5);
     height: 120px;
     width: 100%;
-    margin-top: 30%;
+    position: absolute;
+    top: calc(33.3% - 120px);
     line-height: 150px;
 
     display: flex;
