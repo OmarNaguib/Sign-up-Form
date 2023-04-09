@@ -73,7 +73,28 @@ body{
 }
 
 input{
-    border: #E5E7EB;
+    border: #E5E7EB solid;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 80%
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .foot button{
