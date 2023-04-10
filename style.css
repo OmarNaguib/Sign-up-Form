@@ -142,3 +142,9 @@ input:focus{
 .error{
     border-color: red;
 }
+
+.password::after{
+    content: "* Passwords do not match";
+    color:red;
+    font-size: 12px;
+}
